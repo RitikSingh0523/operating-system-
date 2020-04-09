@@ -26,8 +26,8 @@ main()
 		remt[Proc_no]=bsT[Proc_no]; 
 	} 
 	printf("The details of time quantum are as follows:\n");
-	printf("The time quantum for first round is 3.\n"); 
-	time_quan=3;
+	printf("The time quantum for first round is 6.\n"); 
+	time_quan=6;
 	CurT=0;
 
 	for(Proc_no=0;RemProc!=0;) 
@@ -59,9 +59,9 @@ main()
 			x++;
 			if(x==2){
 				Proc_no=0;
-				time_quan=6;
+				time_quan=10;
 				
-				printf("The time quantum for second round is 6. \n");
+				printf("The time quantum for second round is 10. \n");
 			}
 			else{
 				break;
