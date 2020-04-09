@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<conio.h>
-void os(int no,int rt[30],int ct[30], int at[30], int  bt[30]);
+void os(int no,int rt[30],int ct[30],int at[30],int  bt[30]);
 main()
 {
 int pn, j, no, ct,rmp,indicat,time_s,w,lol,at[30],bt[30],rt[30],x=1;
@@ -74,7 +74,7 @@ os(no,rt,ct,at,bt);
 return 0;
 }
 
-void os(int no,int rt[30],int ct[30], int at[30], int  bt[30])
+void os(int no,int rt[30],int ct[30],int at[30],int  bt[30])
 float avg_wt,avg_lol;
 int i,j,n,tem,btm[40],pn[40],wt[40],lolt[40],loc;
 int total=0;
